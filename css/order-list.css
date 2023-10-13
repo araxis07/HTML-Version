@@ -1,0 +1,217 @@
+/* screen - order-list */
+
+.order-list {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.order-list .title {
+  height: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 67px;
+  text-align: center;
+  width: 183px;
+}
+
+.order-list .overlap-group-1 {
+  height: 84px;
+  margin-left: 4.0px;
+  margin-top: 1px;
+  position: relative;
+  width: 432px;
+}
+
+.order-list .component {
+  background-color: var(--gallery);
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.order-list .building-b-oyasu {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 304px;
+}
+
+.order-list .price {
+  height: 26px;
+  left: 346px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 25px;
+  width: 57px;
+}
+
+.order-list .boneless-fried-chicken {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 201px;
+}
+
+.order-list .cooking {
+  left: 354px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+  width: 78px;
+}
+
+.order-list .address {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 304px;
+}
+
+.order-list .ellipse {
+  background-color: #ff0000;
+  border-radius: 5px;
+  height: 10px;
+  left: 337px;
+  position: absolute;
+  top: 62px;
+  width: 10px;
+}
+
+.order-list .overlap-group {
+  height: 84px;
+  margin-top: 1px;
+  position: relative;
+  width: 428px;
+}
+
+.order-list .fish-balls {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 117px;
+}
+
+.order-list .finish {
+  left: 356px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+  width: 64px;
+}
+
+.order-list .ellipse-1 {
+  background-color: var(--chateau-green);
+  border-radius: 5px;
+  height: 10px;
+  left: 337px;
+  position: absolute;
+  top: 62px;
+  width: 10px;
+}
+
+.order-list .exploding-fish {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 117px;
+}
+
+.order-list .cooking-1 {
+  left: 354px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+  width: 64px;
+}
+
+.order-list .shrimp-tempura {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 152px;
+}
+
+.order-list .order {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-shadow: 0px -1px 4px #00000040;
+  display: flex;
+  height: 76px;
+  margin-top: 363px;
+  min-width: 428px;
+  padding: 7px 34px;
+}
+
+.order-list .group-1 {
+  cursor: pointer;
+  gap: 2px;
+  min-height: 51px;
+}
+
+.order-list .place {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 51px;
+}
+
+.order-list .group-2 {
+  gap: 4px;
+  margin-left: 52px;
+  min-height: 49px;
+}
+
+.order-list .icon-list-select {
+  height: 22px;
+  margin-right: 7.0px;
+  width: 28px;
+}
+
+.order-list .group-3 {
+  cursor: pointer;
+  gap: 1px;
+  margin-left: 50px;
+  min-height: 52px;
+}
+
+.order-list .group-4 {
+  cursor: pointer;
+  gap: 12px;
+  margin-left: 46px;
+  min-height: 38px;
+}
+
+.order-list .group {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 53px;
+}

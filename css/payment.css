@@ -1,0 +1,91 @@
+/* screen - payment */
+
+.payment {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  width: 428px;
+}
+
+.payment .payment-with-qr-code {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 75px;
+  text-align: center;
+  width: 255px;
+}
+
+.payment .line-2 {
+  height: 1px;
+  margin-right: 9.0px;
+  margin-top: 13px;
+  width: 401px;
+}
+
+.payment .promptpay_qrcode-1 {
+  height: 306px;
+  margin-top: 33px;
+  object-fit: cover;
+  width: 306px;
+}
+
+.payment .component-6 {
+  align-items: flex-start;
+  background-color: #3f69ff;
+  border-radius: 14px;
+  display: flex;
+  gap: 4px;
+  height: 51px;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  margin-top: 39px;
+  min-width: 231px;
+  padding: 7px 16px;
+}
+
+.payment .vector {
+  align-self: center;
+  height: 27px;
+  width: 33px;
+}
+
+.payment .upload-image {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 147px;
+}
+
+.payment .please-upload-a-pict {
+  height: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 15.0px;
+  margin-top: 33px;
+  text-align: center;
+  width: 377px;
+}
+
+.payment .overlap-group {
+  height: 71px;
+  margin-top: 230px;
+  position: relative;
+  width: 428px;
+}
+
+.payment .title {
+  height: 43px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 284px;
+}

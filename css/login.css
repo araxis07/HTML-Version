@@ -1,0 +1,147 @@
+/* screen - login */
+
+.login {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  padding: 187px 27.5px;
+  width: 428px;
+}
+
+.login .place {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 27.5px;
+  min-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  width: 318px;
+}
+
+.login .undraw_online_groceries_a02y-1 {
+  align-self: center;
+  height: 192px;
+  margin-top: 40px;
+  width: 187px;
+}
+
+.login .overlap-group {
+  height: 54px;
+  width: 369px;
+}
+
+.login .rectangle {
+  height: 53px;
+  width: 369px;
+}
+
+.login .email {
+  background-color: transparent;
+  border: 0;
+  color: #858585;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 54px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.login .email::placeholder {
+  color: #85858599;
+}
+
+.login .group-3 {
+  height: 53px;
+}
+
+.login .passwords {
+  background-color: transparent;
+  border: 0;
+  color: #858585;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 53px;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.login .passwords::placeholder {
+  color: #85858599;
+}
+
+.login .botton {
+  align-items: flex-start;
+  align-self: center;
+  border-radius: 22px;
+  cursor: pointer;
+  display: flex;
+  height: 60px;
+  margin-left: 2.0px;
+  margin-top: 39px;
+  min-width: 349px;
+}
+
+.login .overlap-group2 {
+  height: 61px;
+  width: 347px;
+}
+
+.login .rectangle-3 {
+  cursor: pointer;
+  height: 60px;
+  width: 347px;
+}
+
+.login .started {
+  color: var(--gallery);
+  cursor: pointer;
+  font-family: var(--font-family-inter);
+  font-size: 21px;
+  font-weight: 700;
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 347px;
+}
+
+.login .group {
+  align-items: flex-start;
+  border-radius: 22px;
+  display: flex;
+  margin-top: 39px;
+  min-width: 371px;
+}
+
+.login .overlap {
+  margin-top: -1px;
+  position: relative;
+}
+
+.login .rectangle-1 {
+  left: 0;
+  position: absolute;
+  top: 1px;
+}

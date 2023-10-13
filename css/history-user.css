@@ -1,0 +1,296 @@
+/* screen - history-user */
+
+.history-user {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.history-user .overlap-group {
+  height: 154px;
+  margin-top: 67px;
+}
+
+.history-user .title {
+  height: 80px;
+  left: 122px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 183px;
+}
+
+.history-user .component-7 {
+  top: 70px;
+}
+
+.history-user .buliding-b-oyasu {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 96px;
+  width: 304px;
+}
+
+.history-user .price-1 {
+  top: 95px;
+}
+
+.history-user .fish-balls {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 124px;
+  width: 117px;
+}
+
+.history-user .finish-1 {
+  top: 126px;
+}
+
+.history-user .address-1 {
+  top: 74px;
+}
+
+.history-user .ellipse-6 {
+  top: 132px;
+}
+
+.history-user .overlap-group1 {
+  height: 84px;
+  margin-top: 1px;
+}
+
+.history-user .component {
+  background-color: var(--gallery);
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.history-user .buliding {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 304px;
+}
+
+.history-user .price {
+  height: 26px;
+  left: 354px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 25px;
+  width: 57px;
+}
+
+.history-user .roselle-juice {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 117px;
+}
+
+.history-user .address {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 304px;
+}
+
+.history-user .finish {
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+  width: 86px;
+}
+
+.history-user .ellipse {
+  background-color: var(--chateau-green);
+  border-radius: 5px;
+  height: 10px;
+  left: 345px;
+  position: absolute;
+  top: 62px;
+  width: 10px;
+}
+
+.history-user .overlap-group2 {
+  height: 167px;
+  margin-top: 1px;
+}
+
+.history-user .component-10 {
+  top: 83px;
+}
+
+.history-user .buliding-a-sunrise-coffee {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 109px;
+  width: 304px;
+}
+
+.history-user .price-2 {
+  top: 108px;
+}
+
+.history-user .pepsi-cold {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 137px;
+  width: 117px;
+}
+
+.history-user .address-2 {
+  top: 87px;
+}
+
+.history-user .finish-2 {
+  top: 139px;
+}
+
+.history-user .ellipse-10 {
+  top: 145px;
+}
+
+.history-user .shrimp-tempura {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 201px;
+}
+
+.history-user .order {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-shadow: 0px -1px 4px #00000040;
+  display: flex;
+  height: 76px;
+  margin-top: 376px;
+  min-width: 428px;
+  padding: 7px 34px;
+}
+
+.history-user .group-1 {
+  cursor: pointer;
+  gap: 2px;
+  min-height: 51px;
+}
+
+.history-user .place {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 51px;
+}
+
+.history-user .group-2 {
+  cursor: pointer;
+  gap: 4px;
+  margin-left: 52px;
+  min-height: 49px;
+}
+
+.history-user .icon-list-select {
+  height: 22px;
+  margin-right: 7.0px;
+  width: 28px;
+}
+
+.history-user .group-3 {
+  gap: 1px;
+  margin-left: 50px;
+  min-height: 52px;
+}
+
+.history-user .group-4 {
+  cursor: pointer;
+  gap: 12px;
+  margin-left: 46px;
+  min-height: 38px;
+}
+
+.history-user .address-3 {
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  width: 304px;
+}
+
+.history-user .component-1 {
+  background-color: var(--gallery);
+  height: 79px;
+  left: 0;
+  position: absolute;
+  width: 428px;
+}
+
+.history-user .ellipse-1 {
+  background-color: var(--chateau-green);
+  border-radius: 5px;
+  height: 10px;
+  left: 345px;
+  position: absolute;
+  width: 10px;
+}
+
+.history-user .finish-3 {
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  width: 86px;
+}
+
+.history-user .group {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 53px;
+}
+
+.history-user .overlap {
+  position: relative;
+  width: 450px;
+}
+
+.history-user .price-3 {
+  height: 26px;
+  left: 354px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  width: 57px;
+}

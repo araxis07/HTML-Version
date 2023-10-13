@@ -1,0 +1,225 @@
+/* screen - food-b-select */
+
+.food-b-select {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.food-b-select .overlap-group3 {
+  height: 907px;
+  margin-top: 60px;
+  position: relative;
+  width: 428px;
+}
+
+.food-b-select .rectangle-23 {
+  height: 732px;
+  left: 0;
+  position: absolute;
+  top: 175px;
+  width: 428px;
+}
+
+.food-b-select .title {
+  height: 43px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 200px;
+  width: 284px;
+}
+
+.food-b-select .more-detail {
+  height: 43px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 304px;
+  width: 284px;
+}
+
+.food-b-select .fired-chicken-20-bathpiece {
+  height: 31px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 243px;
+  width: 377px;
+}
+
+.food-b-select .line-2 {
+  top: 297px;
+  width: 401px;
+}
+
+.food-b-select .line-3 {
+  top: 786px;
+  width: 404px;
+}
+
+.food-b-select .rectangle-27 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 44px;
+  left: 22px;
+  position: absolute;
+  top: 348px;
+  width: 385px;
+}
+
+.food-b-select .ex-no-sauce {
+  height: 31px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 354px;
+  width: 184px;
+}
+
+.food-b-select .group-14 {
+  cursor: pointer;
+  height: 32px;
+  left: 18px;
+  min-width: 122px;
+  top: 28px;
+}
+
+.food-b-select .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--bittersweet);
+  border-radius: 6px;
+  display: flex;
+  gap: 11px;
+  height: 32px;
+  min-width: 120px;
+  padding: 1px 0;
+}
+
+.food-b-select .arrow-back {
+  height: 29px;
+  width: 36px;
+}
+
+.food-b-select .place {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.4px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.food-b-select .group-18 {
+  height: 62px;
+  left: 9px;
+  min-width: 176px;
+  top: 792px;
+}
+
+.food-b-select .overlap-group {
+  height: 62px;
+  margin-top: -1px;
+  position: relative;
+  width: 74px;
+}
+
+.food-b-select .ellipse-3 {
+  background-color: var(--alto);
+  border-radius: 21.46px;
+  height: 43px;
+  left: 16px;
+  position: absolute;
+  top: 12px;
+  width: 43px;
+}
+
+.food-b-select .text {
+  height: 62px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 74px;
+}
+
+.food-b-select .number {
+  align-self: center;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  text-align: center;
+  width: 26px;
+}
+
+.food-b-select .group-22 {
+  border-radius: 8px;
+  cursor: pointer;
+  height: 44px;
+  left: 192px;
+  min-width: 222px;
+  top: 803px;
+}
+
+.food-b-select .overlap-group2 {
+  border-radius: 8px;
+  height: 44px;
+  position: relative;
+  width: 218px;
+}
+
+.food-b-select .rectangle-28 {
+  background-color: var(--emerald);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 218px;
+}
+
+.food-b-select .payment {
+  height: 43px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 81px;
+}
+
+.food-b-select .price {
+  height: 43px;
+  left: 158px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 39px;
+}
+
+.food-b-select .group {
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+}
+
+.food-b-select .line {
+  height: 1px;
+  left: 9px;
+  position: absolute;
+}

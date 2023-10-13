@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/payment.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #eeeeee">
+    <input type="hidden" id="anPageName" name="page" value="payment" />
+    <div class="container-center-horizontal">
+      <form class="payment screen" name="form29" action="form29" method="post">
+        <div class="payment-with-qr-code valign-text-middle inter-bold-black-21px">
+          <span><span class="inter-bold-black-21px">Payment with QR Code</span> </span>
+        </div>
+        <img class="line-2" src="img/line-2-1@2x.png" alt="Line 2" />
+        <img class="promptpay_qrcode-1" src="img/promptpay-qrcode-1-1@2x.png" alt="Promptpay_qrcode 1" />
+        <div class="component-6">
+          <img class="vector" src="img/vector-2@2x.png" alt="Vector" />
+          <div class="upload-image valign-text-middle inter-bold-white-18px">
+            <span><span class="inter-bold-white-18px">Upload Image</span> </span>
+          </div>
+        </div>
+        <p class="please-upload-a-pict valign-text-middle inter-normal-black-17px">
+          <span><span class="inter-normal-black-17px">Please upload a picture to confirm payment</span> </span>
+        </p>
+        <div class="overlap-group">
+          <a href="javascript:SubmitForm('form29')"> <div class="rectangle-21"></div></a>
+          <h1 class="title valign-text-middle inter-bold-white-25px">
+            <span><span class="inter-bold-white-25px">Confirm</span> </span>
+          </h1>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

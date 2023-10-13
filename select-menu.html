@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/select-menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #eeeeee">
+    <input type="hidden" id="anPageName" name="page" value="select-menu" />
+    <div class="container-center-horizontal">
+      <form class="select-menu screen" name="form38" action="form38" method="post">
+        <div class="overlap-group4">
+          <img
+            class="component-8"
+            src="img/372156152-793276486130744-977564212044286730-n-1-2@2x.png"
+            alt="Component 8"
+          />
+          <img class="rectangle-23" src="img/rectangle-23-1@2x.png" alt="Rectangle 23" />
+          <h1 class="title valign-text-middle inter-bold-black-25px">
+            <span><span class="inter-bold-black-25px">fried chicken</span> </span>
+          </h1>
+          <div class="write-additional-details valign-text-middle inter-bold-black-17px">
+            <span><span class="inter-bold-black-17px">Write additional details</span> </span>
+          </div>
+          <img class="line-2" src="img/line-2-1@2x.png" alt="Line 2" />
+          <div class="rectangle-27"></div>
+          <div class="fried-chicken-20-bahtpiece valign-text-middle">
+            <span><span>fried chicken, 20 baht/piece</span> </span>
+          </div>
+          <div class="menu-name valign-text-middle inter-bold-black-17px">
+            <span><span class="inter-bold-black-17px">Menu Name</span> </span>
+          </div>
+          <div class="priceper-menu valign-text-middle inter-bold-black-17px">
+            <span><span class="inter-bold-black-17px">Price/per menu</span> </span>
+          </div>
+          <div class="rectangle-28"></div>
+          <div class="rectangle-29"></div>
+          <input
+            class="fried-chicken inter-bold-black-18px"
+            name="friedchicken"
+            placeholder="fried chicken"
+            type="email"
+          /><a href="javascript:SubmitForm('form38')">
+            <div class="group-14">
+              <div class="overlap-group">
+                <img class="arrow-back" src="img/arrow-back-1@2x.png" alt="arrow-back" />
+                <div class="return valign-text-middle inter-black-white-20px">
+                  <span><span class="inter-black-white-20px">Return</span> </span>
+                </div>
+              </div>
+            </div></a
+          >
+          <div class="price valign-text-middle">
+            <span><span>฿20</span> </span>
+          </div>
+          <div class="overlap-group1">
+            <div class="open-order valign-text-middle inter-bold-white-18px">
+              <span><span class="inter-bold-white-18px">Open Order</span> </span>
+            </div>
+          </div>
+          <a href="javascript:SubmitForm('form38')">
+            <div class="view">
+              <div class="overlap-group2">
+                <div class="confirm-save valign-text-middle inter-bold-white-17px">
+                  <span><span class="inter-bold-white-17px">Confirm save</span> </span>
+                </div>
+                <img class="vector" src="img/vector-1@2x.png" alt="Vector" />
+              </div></div></a
+          ><a href="javascript:SubmitForm('form38')">
+            <div class="component-9">
+              <div class="overlap-group3">
+                <div class="delete valign-text-middle inter-bold-white-17px">
+                  <span><span class="inter-bold-white-17px">Delete</span> </span>
+                </div>
+                <img class="group-12" src="img/group-12-2@2x.png" alt="Group 12" />
+              </div></div
+          ></a>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

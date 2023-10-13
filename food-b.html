@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/food-b.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #eeeeee">
+    <input type="hidden" id="anPageName" name="page" value="food-b" />
+    <div class="container-center-horizontal">
+      <form class="food-b screen" name="form20" action="form20" method="post">
+        <div class="overlap-group1">
+          <img
+            class="x372156152_7932764861"
+            src="img/372156152-793276486130744-977564212044286730-n-1-1@2x.png"
+            alt="372156152_793276486130744_977564212044286730_n 1"
+          />
+          <div class="rectangle-23"></div>
+          <h1 class="title valign-text-middle inter-bold-black-25px">
+            <span><span class="inter-bold-black-25px">Building B - Oyatsu</span> </span>
+          </h1>
+          <p class="grilled-meatballs-g valign-text-middle inter-normal-black-17px">
+            <span><span class="inter-normal-black-17px">Grilled meatballs, grilled pork, fried food</span> </span>
+          </p>
+          <a href="javascript:SubmitForm('form20')">
+            <div class="group-14">
+              <div class="overlap-group">
+                <img class="arrow-back" src="img/arrow-back-1@2x.png" alt="arrow-back" />
+                <div class="place valign-text-middle inter-black-white-20px">
+                  <span><span class="inter-black-white-20px">Home</span> </span>
+                </div>
+              </div>
+            </div></a
+          >
+          <div class="select-box">
+            <img class="rectangle-25" src="img/rectangle-25-1@2x.png" alt="Rectangle 25" />
+            <div class="red-sausage inter-normal-black-17px">
+              <span class="inter-normal-black-17px">Red Sausage</span>
+            </div>
+            <div class="out-of-order inter-bold-red-15px"><span class="inter-bold-red-15px">Out of Order</span></div>
+          </div>
+          <a href="javascript:SubmitForm('form20')">
+            <div class="select-box-1 select-box-4">
+              <img class="rectangle-25" src="img/rectangle-25-2@2x.png" alt="Rectangle 25" />
+              <div class="fired-chicken inter-normal-black-17px">
+                <span class="inter-normal-black-17px">Fired Chicken</span>
+              </div>
+              <div class="out-of-order inter-bold-red-15px"><span class="inter-bold-red-15px">Out of Order</span></div>
+            </div></a
+          >
+          <div class="select-box-2 select-box-4">
+            <img class="rectangle-25" src="img/rectangle-25-3@2x.png" alt="Rectangle 25" />
+            <div class="grilled-pork inter-normal-black-17px">
+              <span class="inter-normal-black-17px">Grilled Pork</span>
+            </div>
+            <div class="out-of-order inter-bold-red-15px"><span class="inter-bold-red-15px">Out of Order</span></div>
+          </div>
+          <div class="select-box-3 select-box-4">
+            <img class="rectangle-25" src="img/rectangle-25-4@2x.png" alt="Rectangle 25" />
+            <div class="fried-quail-eggs inter-normal-black-17px">
+              <span class="inter-normal-black-17px">Fried Quail Eggs</span>
+            </div>
+            <div class="out-of-order inter-bold-red-15px"><span class="inter-bold-red-15px">Out of Order</span></div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

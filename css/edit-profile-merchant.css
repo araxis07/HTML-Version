@@ -1,0 +1,252 @@
+/* screen - edit-profile-merchant */
+
+.edit-profile-merchant {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  gap: 9px;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.edit-profile-merchant .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: -437px;
+  margin-top: 216px;
+  min-height: 248px;
+  width: 428px;
+}
+
+.edit-profile-merchant .overlap-group {
+  height: 59px;
+}
+
+.edit-profile-merchant .text {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.edit-profile-merchant .text-1 {
+  height: 58px;
+  left: 87px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 272px;
+}
+
+.edit-profile-merchant .overlap-group1 {
+  height: 946px;
+  margin-top: 66px;
+}
+
+.edit-profile-merchant .component-11 {
+  background-image: url(../img/rectangle-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 331px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 428px;
+}
+
+.edit-profile-merchant .rectangle-23 {
+  height: 732px;
+  left: 0;
+  position: absolute;
+  top: 214px;
+  width: 428px;
+}
+
+.edit-profile-merchant .rectangle-20 {
+  background-color: var(--perano);
+  height: 69px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.edit-profile-merchant .group-14 {
+  align-items: flex-start;
+  display: flex;
+  gap: 6px;
+  height: 29px;
+  left: 18px;
+  min-width: 112px;
+  position: absolute;
+  top: 20px;
+}
+
+.edit-profile-merchant .arrow-back {
+  height: 29px;
+  margin-top: 0;
+  width: 36px;
+}
+
+.edit-profile-merchant .return {
+  align-self: center;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.0px;
+  min-width: 68px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.edit-profile-merchant .group-15 {
+  cursor: pointer;
+  height: 29px;
+  left: 18px;
+  position: absolute;
+  top: 20px;
+  width: 36px;
+}
+
+.edit-profile-merchant .group-16 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  left: 346px;
+  min-width: 57px;
+  position: absolute;
+  top: 25px;
+}
+
+.edit-profile-merchant .save {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 55px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.edit-profile-merchant .click-to-change {
+  background-image: url(../img/ellipse-2-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 109px;
+  left: 159px;
+  position: absolute;
+  top: 246px;
+  width: 109px;
+}
+
+.edit-profile-merchant .line-1 {
+  height: 1px;
+  left: 94px;
+  position: absolute;
+  top: 411px;
+  width: 239px;
+}
+
+.edit-profile-merchant .oyatsu {
+  background-color: transparent;
+  border: 0;
+  height: 24px;
+  left: 165px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 373px;
+  white-space: nowrap;
+  width: 97px;
+}
+
+.edit-profile-merchant .oyatsu::placeholder {
+  color: #2f2f2f99;
+}
+
+.edit-profile-merchant .write-a-description {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 418px;
+  width: 284px;
+}
+
+.edit-profile-merchant .choose-the-store-building {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 518px;
+  width: 284px;
+}
+
+.edit-profile-merchant .rectangle-27 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 49px;
+  left: 20px;
+  position: absolute;
+  top: 462px;
+  width: 385px;
+}
+
+.edit-profile-merchant .rectangle-28 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 49px;
+  left: 20px;
+  position: absolute;
+  top: 569px;
+  width: 385px;
+}
+
+.edit-profile-merchant .grilled-meatballs-gr {
+  background-color: transparent;
+  border: 0;
+  height: 18px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 474px;
+  white-space: nowrap;
+  width: 284px;
+}
+
+.edit-profile-merchant .grilled-meatballs-gr::placeholder {
+  color: #00000099;
+}
+
+.edit-profile-merchant .a-building {
+  background-color: transparent;
+  border: 0;
+  height: 31px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 579px;
+  width: 320px;
+}
+
+.edit-profile-merchant .a-building::placeholder {
+  color: #00000099;
+}
+
+.edit-profile-merchant .overlap {
+  position: relative;
+  width: 428px;
+}

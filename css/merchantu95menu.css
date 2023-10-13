@@ -1,0 +1,331 @@
+/* screen - merchantu95menu */
+
+.merchantu95menu {
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.merchantu95menu .overlap-group14 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-11-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 331px;
+  justify-content: flex-end;
+  margin-top: -53px;
+  min-width: 428px;
+  padding: 115px 23px;
+}
+
+.merchantu95menu .group-13 {
+  cursor: pointer;
+  height: 31px;
+  width: 31px;
+}
+
+.merchantu95menu .overlap-group13 {
+  height: 51px;
+  margin-left: 15.0px;
+  margin-top: 13px;
+  position: relative;
+  width: 377px;
+}
+
+.merchantu95menu .building-b-oyasu {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 238px;
+}
+
+.merchantu95menu .overlap-group9 {
+  height: 51px;
+  left: 230px;
+  position: absolute;
+  top: 0;
+  width: 147px;
+}
+
+.merchantu95menu .rectangle-30 {
+  background-color: #3fff69;
+  border-radius: 14px;
+  height: 51px;
+  left: 21px;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.merchantu95menu .open {
+  height: 35px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 147px;
+}
+
+.merchantu95menu .group-2 {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 13px;
+  min-width: 373px;
+}
+
+.merchantu95menu .overlap-group8 {
+  height: 57px;
+  margin-top: -1px;
+  position: relative;
+  width: 371px;
+}
+
+.merchantu95menu .rectangle-5 {
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 371px;
+}
+
+.merchantu95menu .grilled-meatballs-g {
+  height: 57px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 339px;
+}
+
+.merchantu95menu .title {
+  align-self: flex-start;
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 21px;
+  margin-top: 7px;
+  text-align: center;
+  width: 155px;
+}
+
+.merchantu95menu .overlap-group15 {
+  height: 250px;
+  margin-left: 10.0px;
+  margin-top: 11px;
+  position: relative;
+  width: 390px;
+}
+
+.merchantu95menu .select-box {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 250px;
+  left: 0;
+  min-width: 196px;
+  position: absolute;
+  top: 0;
+}
+
+.merchantu95menu .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  padding: 15px 12px;
+  width: 192px;
+}
+
+.merchantu95menu .rectangle-25 {
+  align-self: center;
+  height: 166px;
+  margin-top: 2px;
+  object-fit: cover;
+  width: 166px;
+}
+
+.merchantu95menu .fired-chicken {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 139px;
+}
+
+.merchantu95menu .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 194px;
+  min-height: 250px;
+  padding: 15px 12px;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.merchantu95menu .pork-meatballs {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 155px;
+}
+
+.merchantu95menu .overlap-group11 {
+  height: 250px;
+  margin-top: 9px;
+  position: relative;
+  width: 428px;
+}
+
+.merchantu95menu .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 24px;
+  min-height: 250px;
+  padding: 15px 12px;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.merchantu95menu .text {
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
+
+.merchantu95menu .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 218px;
+  min-height: 250px;
+  padding: 15px 12px;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.merchantu95menu .home {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-shadow: 0px -1px 4px #00000040;
+  display: flex;
+  height: 76px;
+  left: 0;
+  min-width: 428px;
+  padding: 7.0px 34px;
+  position: absolute;
+  top: 118px;
+}
+
+.merchantu95menu .group-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 51px;
+  width: 53px;
+}
+
+.merchantu95menu .group-2-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 0;
+  margin-left: 42px;
+  min-height: 49px;
+  width: 73px;
+}
+
+.merchantu95menu .icon-list-select {
+  cursor: pointer;
+  height: 22px;
+  margin-right: 7.0px;
+  width: 28px;
+}
+
+.merchantu95menu .notification {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 71px;
+}
+
+.merchantu95menu .group-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  min-height: 52px;
+  width: 53px;
+}
+
+.merchantu95menu .group-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 0;
+  margin-left: 46px;
+  min-height: 38px;
+  width: 53px;
+}
+
+.merchantu95menu .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 2px;
+  height: 250px;
+  margin-left: 10.0px;
+  margin-top: 9px;
+  min-width: 390px;
+}
+
+.merchantu95menu .text-14 {
+  margin-left: 1px;
+  margin-top: 1px;
+  min-height: 15px;
+  white-space: nowrap;
+}
+
+.merchantu95menu .price-7 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 1px;
+  min-height: 15px;
+  white-space: nowrap;
+}
+
+.merchantu95menu .text-1 {
+  letter-spacing: 0;
+  line-height: normal;
+}

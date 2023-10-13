@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #eeeeee">
+    <input type="hidden" id="anPageName" name="page" value="login" />
+    <div class="container-center-horizontal">
+      <form class="login screen" name="form3" action="form3" method="post">
+        <h1 class="place"><span>Welcome</span></h1>
+        <img
+          class="undraw_online_groceries_a02y-1"
+          src="img/undraw-online-groceries-a02y-1-1@2x.png"
+          alt="undraw_online_groceries_a02y 1"
+        />
+        <div class="group">
+          <div class="overlap-group overlap">
+            <img class="rectangle rectangle-1" src="img/rectangle-5-1@2x.png" alt="Rectangle 5" />
+            <input class="email" name="email" placeholder="Email" type="email" required />
+          </div>
+        </div>
+        <div class="group-3 group">
+          <div class="overlap-group overlap">
+            <img class="rectangle rectangle-1" src="img/rectangle-5-1@2x.png" alt="Rectangle 7" />
+            <input class="passwords" name="passwords" placeholder="Password" type="password" required />
+          </div>
+        </div>
+        <a href="javascript:SubmitForm('form3')" class="align-self-flex-center">
+          <div class="botton">
+            <div class="overlap-group2 overlap">
+              <a href="javascript:SubmitForm('form3')" onclick="window.event.stopPropagation()"
+                ><img class="rectangle-3 rectangle-1" src="img/rectangle-3-1@2x.png" alt="Rectangle 3" /> </a
+              ><a href="javascript:SubmitForm('form3')" onclick="window.event.stopPropagation()"
+                ><div class="started valign-text-middle">
+                  <span><span>Started</span> </span>
+                </div>
+              </a>
+            </div>
+          </div></a
+        >
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

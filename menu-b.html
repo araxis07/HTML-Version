@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/menu-b.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #eeeeee">
+    <input type="hidden" id="anPageName" name="page" value="menu-b" />
+    <div class="container-center-horizontal">
+      <form class="menu-b screen" name="form31" action="form31" method="post">
+        <div class="group-14">
+          <a href="javascript:SubmitForm('form31')"
+            ><img class="arrow-back" src="img/arrow-back-4@2x.png" alt="arrow-back" />
+          </a>
+          <div class="place valign-text-middle">
+            <span><span>Home</span> </span>
+          </div>
+        </div>
+        <h1 class="title valign-text-middle">
+          <span><span>Building B</span> </span>
+        </h1>
+        <div class="overlap-group-1">
+          <a href="javascript:SubmitForm('form31')"> <div class="component-5 component"></div></a
+          ><img
+            class="x372851861_1231347357"
+            src="img/372851861-1231347357495870-1954358027421093308-n-3-1@2x.png"
+            alt="372851861_1231347357495870_1954358027421093308_n 3"
+          />
+          <div class="oyatsu valign-text-middle">
+            <span><span>Oyatsu</span> </span>
+          </div>
+          <div class="detail valign-text-middle">
+            <span><span>Detail</span> </span>
+          </div>
+          <div class="food-store valign-text-middle">
+            <span><span>Food Store</span> </span>
+          </div>
+        </div>
+        <div class="overlap-group">
+          <img class="line" src="img/line-3-3@2x.png" alt="Line 2" />
+          <div class="component"></div>
+        </div>
+        <div class="overlap-group">
+          <img class="line" src="img/line-3-3@2x.png" alt="Line 3" />
+          <div class="rectangle-22"></div>
+        </div>
+        <img class="line-4" src="img/line-3-3@2x.png" alt="Line 4" />
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

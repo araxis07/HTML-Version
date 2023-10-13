@@ -1,0 +1,340 @@
+/* screen - inside-notification-user */
+
+.inside-notification-user {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border: 1px none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  overflow: hidden;
+  padding: 55px 0;
+  width: 428px;
+}
+
+.inside-notification-user .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  margin-top: 17px;
+  min-width: 403px;
+}
+
+.inside-notification-user .arrow-back {
+  cursor: pointer;
+  height: 29px;
+  margin-top: 1.8px;
+  width: 36px;
+}
+
+.inside-notification-user .order-nuay-no-rosellejuice {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 355px;
+}
+
+.inside-notification-user .line-2 {
+  align-self: center;
+  height: 1px;
+  margin-right: 9.0px;
+  margin-top: 16px;
+  width: 401px;
+}
+
+.inside-notification-user .flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 156px;
+  margin-right: 8px;
+  margin-top: 3px;
+  min-width: 392px;
+}
+
+.inside-notification-user .order-list {
+  height: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 3.0px;
+  width: 92px;
+}
+
+.inside-notification-user .overlap-group4 {
+  height: 44px;
+  position: relative;
+  width: 144px;
+}
+
+.inside-notification-user .total {
+  height: 31px;
+  left: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+  width: 92px;
+}
+
+.inside-notification-user .text-7 {
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 130px;
+}
+
+.inside-notification-user .group-19 {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  gap: 19px;
+  margin-right: -6px;
+  margin-top: 4px;
+  min-width: 412px;
+}
+
+.inside-notification-user .rectangle-25 {
+  height: 103px;
+  object-fit: cover;
+  width: 103px;
+}
+
+.inside-notification-user .overlap-group {
+  height: 97px;
+  margin-top: -1px;
+  position: relative;
+  width: 284px;
+}
+
+.inside-notification-user .fried-chicken {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 284px;
+}
+
+.inside-notification-user .price {
+  height: 44px;
+  left: 212px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 53px;
+  width: 51px;
+}
+
+.inside-notification-user .amount-2 {
+  height: 31px;
+  left: 177px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 42px;
+  width: 86px;
+}
+
+.inside-notification-user .group-20 {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  gap: 19px;
+  margin-right: -6px;
+  margin-top: 10px;
+  min-width: 412px;
+}
+
+.inside-notification-user .pork-meatballs {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 284px;
+}
+
+.inside-notification-user .write-additional-details {
+  align-self: flex-start;
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 31px;
+  margin-top: 4px;
+  width: 284px;
+}
+
+.inside-notification-user .overlap-group7 {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--alto);
+  border-radius: 8px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  margin-top: 1px;
+  min-width: 385px;
+  padding: 5px 7px;
+}
+
+.inside-notification-user .no-meat-just-bones {
+  height: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 356px;
+}
+
+.inside-notification-user .overlap-group8 {
+  height: 357px;
+  margin-right: -48px;
+  margin-top: 23px;
+  position: relative;
+  width: 455px;
+}
+
+.inside-notification-user .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border-radius: 8px;
+  display: flex;
+  height: 123px;
+  justify-content: flex-end;
+  left: 171px;
+  min-width: 218px;
+  padding: 10px 3px;
+  position: absolute;
+  top: 76px;
+}
+
+.inside-notification-user .enter-a-description-to-save-in-history {
+  color: var(--storm-dust);
+  font-family: var(--font-family-inter);
+  font-size: 13px;
+  font-weight: 400;
+  height: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 206px;
+}
+
+.inside-notification-user .overlap-group9 {
+  height: 357px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 455px;
+}
+
+.inside-notification-user .overlap-group6 {
+  height: 72px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 453px;
+}
+
+.inside-notification-user .details-for-recording {
+  height: 43px;
+  left: 169px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  width: 284px;
+}
+
+.inside-notification-user .upload-slip-image {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 284px;
+}
+
+.inside-notification-user .slip {
+  background-image: url(../img/image-1-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 299px;
+  left: 0;
+  position: absolute;
+  top: 58px;
+  width: 149px;
+}
+
+.inside-notification-user .component-10 {
+  align-items: flex-start;
+  background-color: #c35656;
+  border-radius: 8px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 171px;
+  min-width: 218px;
+  position: absolute;
+  top: 213px;
+}
+
+.inside-notification-user .overlap-group2 {
+  height: 43px;
+  position: relative;
+  width: 189px;
+}
+
+.inside-notification-user .delete {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 189px;
+}
+
+.inside-notification-user .group-12 {
+  height: 21px;
+  left: 139px;
+  position: absolute;
+  top: 12px;
+  width: 20px;
+}
+
+.inside-notification-user .view {
+  align-items: flex-start;
+  background-color: var(--emerald);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 171px;
+  min-width: 218px;
+  padding: 0 20px;
+  position: absolute;
+  top: 273px;
+}
+
+.inside-notification-user .overlap-group3 {
+  height: 43px;
+  position: relative;
+  width: 176px;
+}
+
+.inside-notification-user .vector {
+  height: 22px;
+  left: 143px;
+  position: absolute;
+  top: 11px;
+  width: 22px;
+}

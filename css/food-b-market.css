@@ -1,0 +1,196 @@
+/* screen - food-b-market */
+
+.food-b-market {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.food-b-market .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  margin-right: -18px;
+  margin-top: 72px;
+  min-width: 421px;
+}
+
+.food-b-market .arrow-back {
+  cursor: pointer;
+  height: 29px;
+  margin-top: 1.8px;
+  width: 36px;
+}
+
+.food-b-market .buliding-b-oyasu {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 373px;
+}
+
+.food-b-market .line-2 {
+  margin-top: 16px;
+}
+
+.food-b-market .order-list {
+  align-self: flex-start;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 28px;
+  margin-top: 30px;
+  width: 92px;
+}
+
+.food-b-market .group-19 {
+  gap: 19px;
+  margin-right: -6px;
+  margin-top: 23px;
+  min-width: 412px;
+}
+
+.food-b-market .rectangle-25 {
+  height: 103px;
+  object-fit: cover;
+  width: 103px;
+}
+
+.food-b-market .overlap-group {
+  height: 97px;
+  margin-top: -1px;
+  position: relative;
+  width: 284px;
+}
+
+.food-b-market .fired-chicken {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 284px;
+}
+
+.food-b-market .price {
+  height: 44px;
+  left: 212px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 53px;
+  width: 51px;
+}
+
+.food-b-market .total-2 {
+  height: 31px;
+  left: 177px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 42px;
+  width: 86px;
+}
+
+.food-b-market .group-20 {
+  gap: 14px;
+  height: 104px;
+  margin-right: -1px;
+  margin-top: 21px;
+  min-width: 407px;
+}
+
+.food-b-market .rectangle-25-1 {
+  align-self: flex-end;
+  height: 103px;
+  object-fit: cover;
+  width: 103px;
+}
+
+.food-b-market .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: -1px;
+  min-height: 98px;
+  width: 284px;
+}
+
+.food-b-market .pork-meatballs {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 284px;
+}
+
+.food-b-market .overlap-group1 {
+  height: 55px;
+  margin-right: 16px;
+  position: relative;
+  width: 86px;
+}
+
+.food-b-market .price-1 {
+  height: 44px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 11px;
+  width: 51px;
+}
+
+.food-b-market .total-2-1 {
+  height: 31px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 86px;
+}
+
+.food-b-market .line-3 {
+  margin-top: 29px;
+}
+
+.food-b-market .overlap-group2 {
+  height: 71px;
+  margin-top: 381px;
+  position: relative;
+  width: 428px;
+}
+
+.food-b-market .payment-60 {
+  height: 43px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 284px;
+}
+
+.food-b-market .group {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+}
+
+.food-b-market .line {
+  align-self: center;
+  height: 1px;
+  margin-right: 9.0px;
+  width: 401px;
+}

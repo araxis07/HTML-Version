@@ -1,0 +1,285 @@
+/* screen - select-menu */
+
+.select-menu {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.select-menu .overlap-group4 {
+  height: 934px;
+  margin-top: 60px;
+  position: relative;
+  width: 428px;
+}
+
+.select-menu .component-8 {
+  height: 273px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.select-menu .rectangle-23 {
+  height: 732px;
+  left: 0;
+  position: absolute;
+  top: 202px;
+  width: 428px;
+}
+
+.select-menu .title {
+  height: 43px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 227px;
+  width: 284px;
+}
+
+.select-menu .write-additional-details {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 380px;
+  width: 284px;
+}
+
+.select-menu .line-2 {
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 292px;
+  width: 401px;
+}
+
+.select-menu .rectangle-27 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 142px;
+  left: 20px;
+  position: absolute;
+  top: 424px;
+  width: 385px;
+}
+
+.select-menu .fried-chicken-20-bahtpiece {
+  color: #000000a6;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 11px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 442px;
+  white-space: nowrap;
+  width: 357px;
+}
+
+.select-menu .menu-name {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 291px;
+  width: 284px;
+}
+
+.select-menu .priceper-menu {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 565px;
+  width: 284px;
+}
+
+.select-menu .rectangle-28 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 46px;
+  left: 20px;
+  position: absolute;
+  top: 335px;
+  width: 385px;
+}
+
+.select-menu .rectangle-29 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 46px;
+  left: 20px;
+  position: absolute;
+  top: 609px;
+  width: 385px;
+}
+
+.select-menu .fried-chicken {
+  background-color: transparent;
+  border: 0;
+  height: 11px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 351px;
+  white-space: nowrap;
+  width: 266px;
+}
+
+.select-menu .fried-chicken::placeholder {
+  color: #00000099;
+}
+
+.select-menu .group-14 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  left: 18px;
+  min-width: 122px;
+  position: absolute;
+  top: 28px;
+}
+
+.select-menu .overlap-group {
+  align-items: flex-start;
+  background-color: var(--bittersweet);
+  border-radius: 6px;
+  display: flex;
+  gap: 6px;
+  height: 32px;
+  min-width: 120px;
+  padding: 1px 0;
+}
+
+.select-menu .arrow-back {
+  height: 29px;
+  width: 36px;
+}
+
+.select-menu .return {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.4px;
+  min-width: 68px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.select-menu .price {
+  color: var(--goblin);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 9px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 627px;
+  white-space: nowrap;
+  width: 102px;
+}
+
+.select-menu .overlap-group1 {
+  align-items: flex-start;
+  background-color: #3fff69;
+  border-radius: 14px;
+  display: flex;
+  height: 51px;
+  left: 258px;
+  min-width: 150px;
+  padding: 7px 0;
+  position: absolute;
+  top: 228px;
+}
+
+.select-menu .open-order {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 147px;
+}
+
+.select-menu .view {
+  align-items: flex-start;
+  background-color: var(--emerald);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 205px;
+  min-width: 218px;
+  padding: 0 20px;
+  position: absolute;
+  top: 683px;
+}
+
+.select-menu .overlap-group2 {
+  height: 43px;
+  position: relative;
+  width: 176px;
+}
+
+.select-menu .vector {
+  height: 22px;
+  left: 143px;
+  position: absolute;
+  top: 11px;
+  width: 22px;
+}
+
+.select-menu .component-9 {
+  align-items: flex-start;
+  background-color: #c35656;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 7px;
+  min-width: 185px;
+  position: absolute;
+  top: 683px;
+}
+
+.select-menu .overlap-group3 {
+  height: 43px;
+  position: relative;
+  width: 160px;
+}
+
+.select-menu .delete {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.select-menu .group-12 {
+  height: 21px;
+  left: 118px;
+  position: absolute;
+  top: 12px;
+  width: 17px;
+}
