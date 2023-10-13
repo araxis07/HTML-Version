@@ -1,0 +1,182 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,900,700|Imprima:400|Poppins:400,700");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6503fb0067cabe5665cc4627.6503fb0167cabe5665cc462a.Qw1fcoY.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rectangle-25 {
+  height: 166px;
+  margin-left: 1px;
+  object-fit: cover;
+  width: 166px;
+}
+
+.icon-home-simple-door {
+  height: 26px;
+  margin-right: 2.6px;
+  width: 26px;
+}
+
+.notification {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 71px;
+}
+
+.icon-clock-outline {
+  height: 28px;
+  margin-right: 5.0px;
+  width: 28px;
+}
+
+.icon-more-horiz {
+  height: 3px;
+  margin-right: 2.54px;
+  width: 28px;
+}
+
+.place-1 {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 51px;
+}
+
+.x372156152_7932764861 {
+  height: 273px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.rectangle-23 {
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%);
+  border-radius: 33px;
+  height: 732px;
+  left: 0;
+  position: absolute;
+  top: 175px;
+  width: 428px;
+}
+
+.out-of-order {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 1px;
+  min-height: 15px;
+  white-space: nowrap;
+}
+
+.select-box-4 {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  min-height: 219px;
+  position: absolute;
+  width: 171px;
+}
+
+.component-6 {
+  background-color: var(--gallery);
+  height: 152px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.rectangle-22 {
+  background-color: var(--gallery);
+  height: 152px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.line-4 {
+  height: 1px;
+  margin-right: 12.0px;
+  width: 398px;
+}
+
+.started {
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 347px;
+}
+
+.confirm-password {
+  height: 57px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.create-account {
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 347px;
+}

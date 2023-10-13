@@ -1,0 +1,58 @@
+/* screen - welcome */
+
+.welcome {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  padding: 138px 27px;
+  width: 428px;
+}
+
+.welcome .undraw_breakfast_psiw-1 {
+  height: 174px;
+  margin-left: 4.0px;
+  margin-top: 181px;
+  width: 320px;
+}
+
+.welcome .title {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 30px;
+  min-height: 35px;
+  text-align: center;
+  width: 373px;
+}
+
+.welcome .tni-food-system-serv {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 17px;
+  min-height: 143px;
+  text-align: center;
+  width: 354px;
+}
+
+.welcome .overlap-group {
+  height: 61px;
+  margin-right: 1.0px;
+  margin-top: 9px;
+  position: relative;
+  width: 347px;
+}
+
+.welcome .rectangle-3 {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 347px;
+}
