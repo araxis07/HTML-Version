@@ -1,0 +1,138 @@
+/* screen - register-merchant */
+
+.register-merchant {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  padding: 131px 23px;
+  width: 428px;
+}
+
+.register-merchant .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  width: 348px;
+}
+
+.register-merchant .group-9 {
+  height: 53px;
+  margin-top: 51px;
+}
+
+.register-merchant .overlap-group {
+  height: 54px;
+  margin-top: -1px;
+  position: relative;
+  width: 369px;
+}
+
+.register-merchant .rectangle-4 {
+  height: 53px;
+  width: 369px;
+}
+
+.register-merchant .name {
+  height: 53px;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-merchant .group {
+  align-items: flex-start;
+  border-radius: 22px;
+  display: flex;
+  margin-top: 29px;
+  min-width: 371px;
+}
+
+.register-merchant .overlap-group-1 {
+  height: 57px;
+  margin-top: -1px;
+  position: relative;
+  width: 369px;
+}
+
+.register-merchant .rectangle {
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 369px;
+}
+
+.register-merchant .first-name {
+  height: 57px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-merchant .group-7 {
+  height: 53px;
+  margin-top: 25px;
+}
+
+.register-merchant .merchant-name {
+  height: 57px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-merchant .group-1 {
+  margin-top: 25px;
+}
+
+.register-merchant .password {
+  height: 57px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-merchant .overlap-group6 {
+  align-self: center;
+  height: 61px;
+  margin-left: 9.0px;
+  margin-top: 50px;
+  position: relative;
+  width: 347px;
+}
+
+.register-merchant .rectangle-3 {
+  height: 60px;
+  width: 347px;
+}
+
+.register-merchant .group-2 {
+  align-items: flex-start;
+  border-radius: 22px;
+  display: flex;
+  min-width: 371px;
+}
+
+.register-merchant .rectangle-1 {
+  left: 0;
+  position: absolute;
+  top: 1px;
+}

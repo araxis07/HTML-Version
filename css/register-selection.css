@@ -1,0 +1,38 @@
+/* screen - register-selection */
+
+.register-selection {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  height: 926px;
+  padding: 379px 36px;
+  width: 428px;
+}
+
+.register-selection .overlap-group {
+  height: 61px;
+  position: relative;
+  width: 347px;
+}
+
+.register-selection .rectangle {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 347px;
+}
+
+.register-selection .register {
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 347px;
+}

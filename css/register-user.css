@@ -1,0 +1,134 @@
+/* screen - register-user */
+
+.register-user {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  padding: 174px 23px;
+  width: 428px;
+}
+
+.register-user .place {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  width: 318px;
+}
+
+.register-user .group-1 {
+  height: 53px;
+  margin-top: 51px;
+  min-width: 371px;
+}
+
+.register-user .overlap-group {
+  height: 54px;
+}
+
+.register-user .rectangle {
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 369px;
+}
+
+.register-user .username {
+  height: 53px;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-user .group-2 {
+  margin-top: 30px;
+  min-width: 371px;
+}
+
+.register-user .email {
+  height: 54px;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-user .group-3 {
+  height: 53px;
+  margin-top: 25px;
+  min-width: 371px;
+}
+
+.register-user .password {
+  height: 53px;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 271px;
+}
+
+.register-user .group-4 {
+  margin-top: 29px;
+  min-width: 371px;
+}
+
+.register-user .overlap-group4 {
+  height: 57px;
+}
+
+.register-user .rectangle-6 {
+  height: 53px;
+  top: 4px;
+  width: 369px;
+}
+
+.register-user .group-5 {
+  align-self: center;
+  height: 60px;
+  margin-left: 11.0px;
+  margin-top: 60px;
+  min-width: 349px;
+}
+
+.register-user .overlap-group-1 {
+  height: 61px;
+  margin-top: -1px;
+  position: relative;
+  width: 347px;
+}
+
+.register-user .rectangle-3 {
+  height: 60px;
+  top: 1px;
+  width: 347px;
+}
+
+.register-user .group {
+  align-items: flex-start;
+  border-radius: 22px;
+  display: flex;
+}
+
+.register-user .overlap {
+  margin-top: -1px;
+  position: relative;
+  width: 369px;
+}
+
+.register-user .rectangle-1 {
+  left: 0;
+  position: absolute;
+}
