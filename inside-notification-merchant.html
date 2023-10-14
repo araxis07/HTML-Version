@@ -12,10 +12,9 @@
   <link rel="stylesheet" type="text/css" href="css/inside-notification-user.css" />
   <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
   <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 </head>
-
-
-
 
 <body style="margin: 0; background: #eeeeee">
   <input type="hidden" id="anPageName" name="page" value="inside-notification-user" />
@@ -104,7 +103,8 @@
             <img class="group-12" src="img/group-12-1@2x.png" alt="Group 12" />
           </div>
         </div>
-        <a href="javascript:SubmitForm('form28')">
+
+        <a href="#" onclick="saveAsImage()">
           <div class="view">
             <div class="overlap-group3">
               <div class="confirm-save valign-text-middle inter-bold-white-17px">
@@ -117,6 +117,30 @@
       </div>
     </form>
   </div>
+  <script>
+    function saveAsHTML() {
+      const htmlContent = `<!DOCTYPE html>
+            <!-- ... (ใส่เนื้อหา HTML ที่ต้องการบันทึก) ... -->
+            </html>`;
+
+      const blob = new Blob([htmlContent], { type: 'text/html' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'my_saved_page.html';
+      a.click();
+    }
+
+    function saveAsImage() {
+      html2canvas(document.body).then(function (canvas) {
+        // Convert canvas to image data URL
+        const imageDataURL = canvas.toDataURL("image/png");
+
+        // Trigger download using FileSaver.js
+        saveAs(imageDataURL, 'Order receipt.png');
+      });
+    }
+  </script>
+
 
 </body>
 
