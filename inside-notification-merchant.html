@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+  <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+  <meta name="og:type" content="website" />
+  <meta name="twitter:card" content="photo" />
+  <link rel="stylesheet" type="text/css" href="css/inside-notification-user.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+
+<body style="margin: 0; background: #eeeeee">
+  <input type="hidden" id="anPageName" name="page" value="inside-notification-user" />
+  <div class="container-center-horizontal">
+    <form class="inside-notification-user screen">
+      <div class="flex-row">
+        <a href="order-marchant.html">
+          <img class="arrow-back" src="img/arrow-back-4@2x.png" alt="arrow-back" />
+        </a>
+        <div class="order-nuay-no-rosellejuice valign-text-middle inter-bold-black-18px">
+          <span><span class="inter-bold-black-18px">Order NuayNoRosellejuice</span> </span>
+        </div>
+      </div>
+      <img class="line-2" src="img/line-2-1@2x.png" alt="Line 2" />
+      <div class="flex-row-1">
+        <div class="order-list valign-text-middle inter-bold-black-20px">
+          <span><span class="inter-bold-black-20px">Order list</span> </span>
+        </div>
+        <div class="overlap-group4 inter-bold-apple-16px">
+          <div class="total valign-text-middle">
+            <span><span class="inter-bold-apple-16px">Total</span> </span>
+          </div>
+          <div class="text-7 valign-text-middle">
+            <span><span class="inter-bold-apple-16px"> ฿60</span> </span>
+          </div>
+        </div>
+      </div>
+      <div class="group-19">
+        <img class="rectangle-25" src="img/rectangle-25-5@2x.png" alt="Rectangle 25" />
+        <div class="overlap-group">
+          <div class="fried-chicken valign-text-middle inter-normal-black-18px">
+            <span><span class="inter-normal-black-18px">Fried chicken</span> </span>
+          </div>
+          <div class="price valign-text-bottom inter-bold-apple-16px">
+            <span><span class="inter-bold-apple-16px">฿40</span> </span>
+          </div>
+          <div class="amount-2 valign-text-middle inter-normal-gravel-14px">
+            <span><span class="inter-normal-gravel-14px">Amount 2</span> </span>
+          </div>
+        </div>
+      </div>
+      <div class="group-20">
+        <img class="rectangle-25" src="img/rectangle-25-8@2x.png" alt="Rectangle 25" />
+        <div class="overlap-group">
+          <div class="pork-meatballs valign-text-middle inter-normal-black-18px">
+            <span><span class="inter-normal-black-18px">Pork meatballs</span> </span>
+          </div>
+          <div class="price valign-text-bottom inter-bold-apple-16px">
+            <span><span class="inter-bold-apple-16px">฿20</span> </span>
+          </div>
+          <div class="amount-2 valign-text-middle inter-normal-gravel-14px">
+            <span><span class="inter-normal-gravel-14px">Amount 2</span> </span>
+          </div>
+        </div>
+      </div>
+      <div class="write-additional-details valign-text-middle inter-bold-black-17px">
+        <span><span class="inter-bold-black-17px">Write additional details</span> </span>
+      </div>
+      <div class="overlap-group7">
+        <div class="no-meat-just-bones valign-text-middle inter-normal-storm-dust-15px">
+          <span><span class="inter-normal-storm-dust-15px">No meat, just bones.</span> </span>
+        </div>
+      </div>
+      <div class="overlap-group8">
+        <div class="overlap-group5">
+          <p class="enter-a-description-to-save-in-history valign-text-middle">
+            <span><span>Enter a description to save in history.</span> </span>
+          </p>
+        </div>
+        <div class="overlap-group9">
+          <div class="overlap-group6 inter-bold-black-17px">
+            <div class="details-for-recording valign-text-middle">
+              <span><span class="inter-bold-black-17px">Details for recording</span> </span>
+            </div>
+            <div class="upload-slip-image valign-text-middle">
+              <span><span class="inter-bold-black-17px">Upload slip image</span> </span>
+            </div>
+          </div>
+          <div class="slip"></div>
+        </div>
+        <div class="component-10">
+          <div class="overlap-group2">
+            <div class="delete valign-text-middle inter-bold-white-17px">
+              <span><span class="inter-bold-white-17px">Delete</span> </span>
+            </div>
+            <img class="group-12" src="img/group-12-1@2x.png" alt="Group 12" />
+          </div>
+        </div>
+
+        <a href="#" onclick="saveAsImage()">
+          <div class="view">
+            <div class="overlap-group3">
+              <div class="confirm-save valign-text-middle inter-bold-white-17px">
+                <span><span class="inter-bold-white-17px">Confirm &amp; Save</span> </span>
+              </div>
+              <img class="vector" src="img/vector-1@2x.png" alt="Vector" />
+            </div>
+          </div>
+        </a>
+      </div>
+    </form>
+  </div>
+  <script>
+    function saveAsHTML() {
+      const htmlContent = `<!DOCTYPE html>
+            <!-- ... (ใส่เนื้อหา HTML ที่ต้องการบันทึก) ... -->
+            </html>`;
+
+      const blob = new Blob([htmlContent], { type: 'text/html' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'my_saved_page.html';
+      a.click();
+    }
+
+    function saveAsImage() {
+      html2canvas(document.body).then(function (canvas) {
+        // Convert canvas to image data URL
+        const imageDataURL = canvas.toDataURL("image/png");
+
+        // Trigger download using FileSaver.js
+        saveAs(imageDataURL, 'Order receipt.png');
+      });
+    }
+  </script>
+
+
+</body>
+
+</html>
