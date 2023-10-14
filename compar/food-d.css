@@ -1,0 +1,163 @@
+/* screen - food-d */
+
+.food-d {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.food-d .flex-row {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 17.0px;
+  margin-top: 20px;
+  min-width: 369px;
+}
+
+.food-d .text-5 {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 21px;
+  white-space: nowrap;
+  width: 71px;
+}
+
+.food-d .vector {
+  height: 20px;
+  margin-left: 194px;
+  width: 26px;
+}
+
+.food-d .vector-1 {
+  height: 22px;
+  margin-left: 12px;
+  width: 24px;
+}
+
+.food-d .vector-2 {
+  height: 17px;
+  margin-left: 12px;
+  width: 30px;
+}
+
+.food-d .overlap-group1 {
+  height: 907px;
+  position: relative;
+  width: 428px;
+}
+
+.food-d .title {
+  height: 43px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 200px;
+  width: 284px;
+}
+
+.food-d .a-la-carte-restaurant {
+  height: 31px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 243px;
+  width: 181px;
+}
+
+.food-d .select-box {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  left: 33px;
+  min-height: 219px;
+  position: absolute;
+  top: 310px;
+  width: 171px;
+}
+
+.food-d .american-fried-rice {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 167px;
+}
+
+.food-d .select-box-1 {
+  left: 227px;
+  top: 310px;
+}
+
+.food-d .pork-fried-rice {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
+
+.food-d .select-box-2 {
+  left: 33px;
+  top: 569px;
+}
+
+.food-d .pad-gaprao {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
+
+.food-d .overlap-group {
+  align-items: flex-start;
+  background-color: var(--bittersweet);
+  border-radius: 6px;
+  display: flex;
+  gap: 11px;
+  height: 32px;
+  left: 18px;
+  min-width: 120px;
+  padding: 1px 0;
+  position: absolute;
+  top: 28px;
+}
+
+.food-d .arrow-back {
+  height: 29px;
+  width: 36px;
+}
+
+.food-d .place {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.4px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.food-d .select-box-3 {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  min-height: 219px;
+  position: absolute;
+  width: 171px;
+}

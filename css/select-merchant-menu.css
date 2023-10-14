@@ -1,0 +1,282 @@
+/* screen - select-merchant-menu */
+
+.select-merchant-menu {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.select-merchant-menu .overlap-group3 {
+  height: 934px;
+  margin-top: 60px;
+  position: relative;
+  width: 428px;
+}
+
+.select-merchant-menu .x372156152_7932764861 {
+  height: 273px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.select-merchant-menu .rectangle-23 {
+  height: 732px;
+  left: 0;
+  position: absolute;
+  top: 202px;
+  width: 428px;
+}
+
+.select-merchant-menu .title {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 227px;
+  width: 284px;
+}
+
+.select-merchant-menu .write-additional-details {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 380px;
+  width: 284px;
+}
+
+.select-merchant-menu .line-2 {
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 292px;
+  width: 401px;
+}
+
+.select-merchant-menu .rectangle-27 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 142px;
+  left: 20px;
+  position: absolute;
+  top: 424px;
+  width: 385px;
+}
+
+.select-merchant-menu .fried-chicken-20-bahtpiece {
+  color: #000000a6;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 31px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 430px;
+  width: 266px;
+}
+
+.select-merchant-menu .menu-name {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 291px;
+  width: 284px;
+}
+
+.select-merchant-menu .priceper-menu {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 565px;
+  width: 284px;
+}
+
+.select-merchant-menu .rectangle-28 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 46px;
+  left: 20px;
+  position: absolute;
+  top: 335px;
+  width: 385px;
+}
+
+.select-merchant-menu .rectangle-29 {
+  background-color: var(--alto);
+  border-radius: 8px;
+  height: 46px;
+  left: 20px;
+  position: absolute;
+  top: 609px;
+  width: 385px;
+}
+
+.select-merchant-menu .fried-chicken {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  height: 31px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 341px;
+  width: 266px;
+}
+
+.select-merchant-menu .overlap-group {
+  align-items: flex-start;
+  background-color: var(--bittersweet);
+  border-radius: 6px;
+  display: flex;
+  gap: 6px;
+  height: 32px;
+  left: 18px;
+  min-width: 120px;
+  padding: 1px 0;
+  position: absolute;
+  top: 28px;
+}
+
+.select-merchant-menu .return {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.4px;
+  min-width: 68px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.select-merchant-menu .price {
+  color: #3e7e48;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 31px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 616px;
+  width: 102px;
+}
+
+.select-merchant-menu .view {
+  align-items: flex-start;
+  background-color: #56c374;
+  border-radius: 8px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 205px;
+  min-width: 218px;
+  padding: 0 20px;
+  position: absolute;
+  top: 683px;
+}
+
+.select-merchant-menu .overlap-group1 {
+  height: 43px;
+  position: relative;
+  width: 176px;
+}
+
+.select-merchant-menu .confirm-save {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 176px;
+}
+
+.select-merchant-menu .vector {
+  height: 22px;
+  left: 143px;
+  position: absolute;
+  top: 11px;
+  width: 22px;
+}
+
+.select-merchant-menu .component-9 {
+  align-items: flex-start;
+  background-color: #c35656;
+  border-radius: 8px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 7px;
+  min-width: 185px;
+  position: absolute;
+  top: 683px;
+}
+
+.select-merchant-menu .overlap-group2 {
+  height: 43px;
+  position: relative;
+  width: 160px;
+}
+
+.select-merchant-menu .delete {
+  height: 43px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.select-merchant-menu .group-12 {
+  height: 21px;
+  left: 118px;
+  position: absolute;
+  top: 12px;
+  width: 17px;
+}
+
+.select-merchant-menu .rectangle-30 {
+  background-color: #3fff69;
+  border-radius: 14px;
+  height: 51px;
+  left: 258px;
+  position: absolute;
+  top: 222px;
+  width: 150px;
+}
+
+.select-merchant-menu .open-order {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  height: 35px;
+  left: 258px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 229px;
+  width: 147px;
+}

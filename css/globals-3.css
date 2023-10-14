@@ -1,0 +1,89 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:700,900,600,400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6503fb0067cabe5665cc4627.6503fb0167cabe5665cc462a.IHqaXpO.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.arrow-back {
+  height: 29px;
+  width: 36px;
+}
+
+.place {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.4px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.select-box {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  min-height: 219px;
+  width: 171px;
+}
+
+.rectangle-25 {
+  height: 166px;
+  margin-left: 1px;
+  object-fit: cover;
+  width: 166px;
+}
+
+.out-of-order {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 1px;
+  min-height: 15px;
+  white-space: nowrap;
+}
+
+.select-box-container-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 23px;
+  height: 219px;
+  margin-left: 3.0px;
+  margin-top: 40px;
+  min-width: 365px;
+}
+
+.overlap {
+  align-items: flex-start;
+  display: flex;
+}
