@@ -17,7 +17,7 @@
 <body style="margin: 0; background: #f2f2f2">
   <input type="hidden" id="anPageName" name="page" value="merchantu95menu-new" />
   <div class="container-center-horizontal">
-    <form class="merchantu95menu-new screen" name="form4" action="form4" method="post">
+    <form class="merchantu95menu-new screen">
       <div class="overlap-group4">
         <a href="edit-profile-merchant.html"><img class="group-13" src="img/group-13-1@2x.png" alt="Group 13" />
         </a>
@@ -26,12 +26,19 @@
         <h1 class="title valign-text-middle inter-bold-black-25px">
           <span><span class="inter-bold-black-25px">Building - B Oyasu</span> </span>
         </h1>
-        <div class="overlap-group1">
-          <div class="rectangle-30"></div>
-          <div class="open valign-text-middle">
-            <span><span>Open</span> </span>
+        <div class="overlap-group1" onclick="toggleState(event)">
+          <div class="rectangle-30">
+            <div class ="container">
+              <div class="open">
+                Open
+              </div>
+            </div>
           </div>
         </div>
+        
+        
+        
+        
       </div>
       <div class="group-2">
         <div class="overlap-group">
@@ -115,24 +122,28 @@
   <script>
     /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
 
-    if (!HTMLFormElement.prototype.reportValidity) {
-      HTMLFormElement.prototype.reportValidity = function () {
-        if (this.checkValidity()) return true;
-        var btn = document.createElement("button");
-        this.appendChild(btn);
-        btn.click();
-        this.removeChild(btn);
-        return false;
-      };
-    }
 
-    function SubmitForm(form_name) {
-      var form = document.getElementsByName(form_name)[0];
-      if (form.reportValidity()) {
-        form.submit();
-        if (window.submitted) window.submitted();
-      }
-    }
+
+    function toggleState(event) {
+  event.preventDefault();  // ป้องกันการ refresh หน้าเว็บ
+
+  var button = document.querySelector('.rectangle-30');
+  var buttonText = document.querySelector('.open');
+
+  if (button.classList.contains('active')) {
+    button.classList.remove('active');
+    button.style.backgroundColor = '#FF0000';
+    buttonText.innerText = 'Closed';
+  } else {
+    button.classList.add('active');
+    button.style.backgroundColor = '#3fff69';
+    buttonText.innerText = 'Open';
+  }
+}
+
+
+
+
   </script>
 </body>
 

@@ -77,7 +77,11 @@
   position: absolute;
   text-align: center;
   top: 7px;
-  width: 147px;
+  width: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .merchantu95menu-new .group-2 {
