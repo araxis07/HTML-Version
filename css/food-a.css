@@ -1,0 +1,126 @@
+/* screen - food-a */
+
+.food-a {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  height: 926px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.food-a .overlap-group1 {
+  height: 907px;
+  margin-top: 60px;
+  position: relative;
+  width: 428px;
+}
+
+.food-a .overlap-group {
+  align-items: flex-start;
+  background-color: var(--bittersweet);
+  border-radius: 6px;
+  display: flex;
+  gap: 11px;
+  height: 32px;
+  left: 18px;
+  min-width: 120px;
+  padding: 1px 0;
+  position: absolute;
+  top: 28px;
+}
+
+.food-a .arrow-back {
+  height: 29px;
+  width: 36px;
+}
+
+.food-a .place {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.4px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.food-a .title {
+  height: 43px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 200px;
+  width: 373px;
+}
+
+.food-a .cafe-shop {
+  height: 31px;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 243px;
+  width: 181px;
+}
+
+.food-a .select-box {
+  align-items: flex-start;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  left: 33px;
+  min-height: 219px;
+  position: absolute;
+  top: 310px;
+  width: 171px;
+}
+
+.food-a .americano {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
+
+.food-a .select-box-1 {
+  left: 227px;
+  top: 310px;
+}
+
+.food-a .cappuccino {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
+
+.food-a .select-box-2 {
+  left: 33px;
+  top: 569px;
+}
+
+.food-a .coco {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
+
+.food-a .select-box-3 {
+  left: 227px;
+  top: 569px;
+}
+
+.food-a .surname {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 27px;
+  width: 124px;
+}
