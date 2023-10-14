@@ -1,0 +1,114 @@
+/* screen - menu-e */
+
+.menu-e {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  padding: 77px 0;
+  width: 428px;
+}
+
+.menu-e .group-14 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 11px;
+  margin-left: 21px;
+  min-width: 108px;
+}
+
+.menu-e .arrow-back {
+  height: 29px;
+  margin-top: 0;
+  width: 36px;
+}
+
+.menu-e .place {
+  align-self: center;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.0px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.menu-e .title {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 12.0px;
+  margin-top: 39px;
+  text-align: center;
+  white-space: nowrap;
+  width: 174px;
+}
+
+.menu-e .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  height: 152px;
+  margin-top: 31px;
+  min-width: 428px;
+  padding: 11px 15px;
+}
+
+.menu-e .x372851861_1231347357 {
+  height: 118px;
+  margin-top: 1px;
+  width: 118px;
+}
+
+.menu-e .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 26px;
+  min-height: 64px;
+  width: 158px;
+}
+
+.menu-e .hiramiya {
+  height: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 109px;
+}
+
+.menu-e .food-store {
+  height: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 158px;
+}
+
+.menu-e .detail {
+  align-self: flex-end;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  text-align: center;
+  width: 92px;
+}
+
+.menu-e .overlap-group {
+  height: 152px;
+  position: relative;
+  width: 428px;
+}
+
+.menu-e .line {
+  height: 1px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 398px;
+}
