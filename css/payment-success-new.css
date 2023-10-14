@@ -1,0 +1,80 @@
+/* screen - payment-success-new */
+
+.payment-success-new {
+  align-items: center;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  width: 428px;
+}
+
+.payment-success-new .pay-qr-code {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  height: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 75px;
+  text-align: center;
+  width: 215px;
+}
+
+.payment-success-new .line-2 {
+  height: 1px;
+  margin-right: 9.0px;
+  margin-top: 13px;
+  width: 401px;
+}
+
+.payment-success-new .correct {
+  height: 218px;
+  margin-top: 99px;
+  width: 218px;
+}
+
+.payment-success-new .title {
+  height: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  margin-top: 33px;
+  min-width: 382px;
+  text-align: center;
+}
+
+.payment-success-new .overlap-group {
+  height: 71px;
+  margin-top: 334px;
+  position: relative;
+  width: 428px;
+}
+
+.payment-success-new .rectangle-21 {
+  background-color: #49d568;
+  cursor: pointer;
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.payment-success-new .confirm {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 43px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 284px;
+}

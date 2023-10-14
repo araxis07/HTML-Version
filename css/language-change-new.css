@@ -1,0 +1,240 @@
+/* screen - language-change-new */
+
+.language-change-new {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  width: 428px;
+}
+
+.language-change-new .overlap-group {
+  height: 299px;
+  margin-top: -54px;
+}
+
+.language-change-new .rectangle-11 {
+  background-color: #9dc1f8;
+  height: 254px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.language-change-new .back {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 19px;
+  font-weight: 400;
+  height: 50px;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 249px;
+  width: 70px;
+}
+
+.language-change-new .yeegerman {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 22px;
+  font-weight: 700;
+  height: 58px;
+  left: 109px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 135px;
+  width: 190px;
+}
+
+.language-change-new .component-2 {
+  background-image: url(../img/ellipse-1-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 80px;
+  left: 27px;
+  position: absolute;
+  top: 140px;
+  width: 80px;
+}
+
+.language-change-new .group-13 {
+  height: 31px;
+  left: 374px;
+  position: absolute;
+  top: 116px;
+  width: 31px;
+}
+
+.language-change-new .nissanahcom {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 58px;
+  left: 138px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 164px;
+  width: 190px;
+}
+
+.language-change-new .overlap-group2 {
+  height: 59px;
+  margin-top: 8px;
+}
+
+.language-change-new .botton-hovering {
+  align-items: flex-start;
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 4px #00000040;
+  display: flex;
+  height: 59px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 428px;
+  padding: 18.7px 6px;
+  position: absolute;
+  top: 0;
+}
+
+.language-change-new .text {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.language-change-new .thai-beta-test {
+  height: 58px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 272px;
+}
+
+.language-change-new .overlap-group1 {
+  height: 59px;
+  margin-top: 5px;
+}
+
+.language-change-new .component {
+  align-items: flex-start;
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 4px #00000040;
+  display: flex;
+  height: 59px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 428px;
+  padding: 18.7px 6px;
+  position: absolute;
+  top: 0;
+}
+
+.language-change-new .language {
+  height: 58px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 272px;
+}
+
+.language-change-new .more {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-shadow: 0px -1px 4px #00000040;
+  display: flex;
+  height: 76px;
+  margin-top: 474px;
+  min-width: 428px;
+  padding: 7px 34px;
+}
+
+.language-change-new .group-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 51px;
+  width: 53px;
+}
+
+.language-change-new .place {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 51px;
+}
+
+.language-change-new .group-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 52px;
+  min-height: 49px;
+  width: 53px;
+}
+
+.language-change-new .icon-list-select {
+  height: 22px;
+  margin-right: 7.0px;
+  width: 28px;
+}
+
+.language-change-new .order {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 51px;
+}
+
+.language-change-new .group-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: 50px;
+  min-height: 52px;
+  width: 53px;
+}
+
+.language-change-new .history {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  text-align: center;
+  width: 51px;
+}
+
+.language-change-new .group-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 46px;
+  min-height: 38px;
+  width: 53px;
+}
+
+.language-change-new .overlap {
+  position: relative;
+  width: 428px;
+}

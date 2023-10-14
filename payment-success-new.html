@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/payment-success-new.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide-2.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals-2.css" />
+  </head>
+  <body style="margin: 0; background: #eeeeee">
+    <input type="hidden" id="anPageName" name="page" value="payment-success-new" />
+    <div class="container-center-horizontal">
+      <form class="payment-success-new screen" name="form5" action="form5" method="post">
+        <div class="pay-qr-code valign-text-middle">
+          <span><span>QR-Code</span> </span>
+        </div>
+        <img class="line-2" src="img/line-2-1@2x.png" alt="Line 2" />
+        <img class="correct" src="img/correct-1@2x.png" alt="Correct" />
+        <h1 class="title valign-text-middle inter-black-black-32px">
+          <span><span class="inter-black-black-32px">The upload is complete.</span> </span>
+        </h1>
+        <div class="overlap-group">
+          <div class="rectangle-21"></div>
+          <a href="menu-user.html"> 
+          <div class="confirm valign-text-middle">
+            <span><span>Confirm</span> </span>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
