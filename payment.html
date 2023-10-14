@@ -12,57 +12,82 @@
   <link rel="stylesheet" type="text/css" href="css/payment.css" />
   <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
   <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
 </head>
+
+
 
 <body style="margin: 0; background: #eeeeee">
   <input type="hidden" id="anPageName" name="page" value="payment" />
   <div class="container-center-horizontal">
     <form class="payment screen" name="form29" action="form29" method="post">
       <div class="payment-with-qr-code valign-text-middle inter-bold-black-21px">
-        <span><span class="inter-bold-black-21px">Payment with QR Code</span> </span>
+        <span><span class="inter-bold-black-21px">Payment with QR Code</span></span>
       </div>
       <img class="line-2" src="img/line-2-1@2x.png" alt="Line 2" />
       <img class="promptpay_qrcode-1" src="img/promptpay-qrcode-1-1@2x.png" alt="Promptpay_qrcode 1" />
       <div class="component-6">
         <img class="vector" src="img/vector-2@2x.png" alt="Vector" />
-        <div class="upload-image valign-text-middle inter-bold-white-18px">
-          <span><span class="inter-bold-white-18px">Upload Image</span> </span>
-        </div>
+        <label for="imageUpload" class="upload-image valign-text-middle inter-bold-white-18px">
+          <span><span class="inter-bold-white-18px">Upload Image</span></span>
+        </label>
+        <input type="file" id="imageUpload" style="display: none;">
       </div>
       <p class="please-upload-a-pict valign-text-middle inter-normal-black-17px">
-        <span><span class="inter-normal-black-17px">Please upload a picture to confirm payment</span> </span>
+        <span><span class="inter-normal-black-17px">Please upload a picture to confirm payment</span></span>
       </p>
       <div class="overlap-group">
         <div class="rectangle-21"></div>
         <a href="payment-success-new.html">
           <h1 class="title valign-text-middle inter-bold-white-25px">
-            <span><span class="inter-bold-white-25px">Confirm</span> </span>
+            <span><span class="inter-bold-white-25px">Confirm</span></span>
           </h1>
         </a>
       </div>
     </form>
   </div>
   <script>
-    /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+    const uploadImageLabel = document.querySelector('.upload-image');
+    const imageUpload = document.getElementById('imageUpload');
 
-    if (!HTMLFormElement.prototype.reportValidity) {
-      HTMLFormElement.prototype.reportValidity = function () {
-        if (this.checkValidity()) return true;
-        var btn = document.createElement("button");
-        this.appendChild(btn);
-        btn.click();
-        this.removeChild(btn);
-        return false;
-      };
+    uploadImageLabel.addEventListener('click', () => {
+      // Open the file dialog only if it's not already open
+      if (!imageUpload.value) {
+        imageUpload.click();
+      }
+      
+      if (!isClicked) {
+
+    isClicked = true;
     }
 
-    function SubmitForm(form_name) {
-      var form = document.getElementsByName(form_name)[0];
-      if (form.reportValidity()) {
-        form.submit();
-        if (window.submitted) window.submitted();
+    let isPopupOpen = false;
+
+
+    });
+
+
+        function openPopup() {
+      if (!isPopupOpen) {
+        // โค้ดเปิด popup ที่นี่
+
+        isPopupOpen = true;  // ตั้งค่าให้ popup เปิดแล้ว
       }
     }
+    let isPopupOpen = false;
+
+      document.querySelector('.upload-image').addEventListener('click', () => {
+        if (!isPopupOpen) {
+          // โค้ดเปิด popup ที่นี่
+
+          isPopupOpen = true;  // ตั้งค่าให้ popup เปิดแล้ว
+        }
+});
+
+
+
   </script>
 </body>
 
