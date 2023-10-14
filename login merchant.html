@@ -27,13 +27,13 @@
       <div class="group">
         <div class="overlap-group overlap">
           <img class="rectangle rectangle-1" src="img/rectangle-5-1@2x.png" alt="Rectangle 5" />
-          <input class="email" name="email" placeholder="Email" type="email" required />
+          <input class="email" name="email" placeholder="Email" type="email" id=email required />
         </div>
       </div>
       <div class="group-3 group">
         <div class="overlap-group overlap">
           <img class="rectangle rectangle-1" src="img/rectangle-5-1@2x.png" alt="Rectangle 7" />
-          <input class="passwords" name="passwords" placeholder="Password" type="password" required />
+          <input class="passwords" name="passwords" placeholder="Password" type="password" id="password" required />
         </div>
       </div>
       <div class="overlap-group3">
@@ -48,42 +48,36 @@
           </div>
         </a>
       </div>
-      <a href="merchantu95menu.html" class="align-self-flex-center">
-        <div class="botton">
-          <div class="overlap-group2 overlap">
-            <a href="merchantu95menu.html" onclick="window.event.stopPropagation()"><img class="rectangle-3 rectangle-1"
-                src="img/rectangle-3-1@2x.png" alt="Rectangle 3" /> </a><a href="merchantu95menu.html"
-              onclick="window.event.stopPropagation()">
-              <div class="started valign-text-middle">
-                <span><span>Started</span> </span>
-              </div>
-            </a>
+
+      <div class="botton" onclick="auth()">
+        <div class="overlap-group2 overlap">
+          <img class="rectangle-3 rectangle-1" src="img/rectangle-3-1@2x.png" alt="Rectangle 3" />
+          <div class="started valign-text-middle">
+            <span><span>Started</span> </span>
           </div>
         </div>
-      </a>
+      </div>
+
+      
+
+
     </form>
   </div>
   <script>
 
-    if (!HTMLFormElement.prototype.reportValidity) {
-      HTMLFormElement.prototype.reportValidity = function () {
-        if (this.checkValidity()) return true;
-        var btn = document.createElement("button");
-        this.appendChild(btn);
-        btn.click();
-        this.removeChild(btn);
-        return false;
-      };
-    }
-
-    function SubmitForm(form_name) {
-      var form = document.getElementsByName(form_name)[0];
-      if (form.reportValidity()) {
-        form.submit();
-        if (window.submitted) window.submitted();
+    function auth() {
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+  
+       if (email == "oyatsu@gmail.com" && password == "oyatsu123") {
+        window.location.href = "merchantu95menu.html";
+        alert("Login successful as oyatsu");
+      } else {
+        alert("Incorrect email or password");
       }
     }
   </script>
+
 </body>
 
 </html>
