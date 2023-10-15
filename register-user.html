@@ -24,7 +24,7 @@
           <img class="rectangle" src="img/rectangle-6-2@2x.png" alt="Rectangle 4" />
           <div class="username valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="text"
-                  placeholder="Username"></span> </span>
+                  placeholder="Username" id="Usercheck"></span> </span>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@
           <img class="rectangle" src="img/rectangle-6-2@2x.png" alt="Rectangle 5" />
           <div class="email valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="email"
-                  placeholder="Email"></span> </span>
+                  placeholder="Email" id="Emailcheck"></span> </span>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
           <div class="password valign-text-middle poppins-normal-gunsmoke-18px">
             <span>
               <span>
-                <input class="poppins-normal-gunsmoke-18px input-with-border" type="password" placeholder="Password">
+                <input class="poppins-normal-gunsmoke-18px input-with-border" type="password" placeholder="Password" id="PasswordCheck">
               </span>
             </span>
           </div>
@@ -55,24 +55,43 @@
           <div class="confirm-password valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span>
                 <input class="poppins-normal-gunsmoke-18px input-with-border" type="password"
-                  placeholder="Confirm password">
+                  placeholder="Confirm password" id="Password_Confirm_Check">
 
               </span> </span>
           </div>
         </div>
       </div>
-      <a href="login.html">
-        <div class="group-5 group">
+
+        <div class="group-5 group botton" onclick="auth()">
           <div class="overlap-group-1">
             <img class="rectangle-3 rectangle-1" src="img/rectangle-3-2@2x.png" alt="Rectangle 3" />
             <div class="create-account valign-text-middle inter-bold-gallery-21px">
-              <span><span class="inter-bold-gallery-21px">Create Account</span> </span>
+              <span><span class="inter-bold-gallery-21px">Create Account</span></span>
             </div>
           </div>
         </div>
-      </a>
+
     </div>
   </div>
+
+  <script>
+
+      function auth() {
+      var email_check = !!document.getElementById('Emailcheck').value;
+      var password_check = !!document.getElementById('PasswordCheck').value;
+      var password_con_check = !!document.getElementById('Password_Confirm_Check').value;
+      var user_check = !!document.getElementById('Usercheck').value;
+
+      if (email_check && password_check && password_con_check && user_check) {
+        // Perform your authentication logic
+        window.location.href = "login.html";
+        alert("Create Account Success.");
+      } else {
+        alert("Please fill in all fields.");
+      }
+    }
+    
+    </script>
 </body>
 
 </html>

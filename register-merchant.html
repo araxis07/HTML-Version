@@ -24,7 +24,7 @@
           <img class="rectangle-4 rectangle-1" src="img/rectangle-6-2@2x.png" alt="Rectangle 4" />
           <div class="name valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="email"
-                  placeholder="Email"></span> </span>
+                  placeholder="Email" id="Emailcheck"></span> </span>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
           <img class="rectangle" src="img/rectangle-6-2@2x.png" alt="Rectangle 6" />
           <div class="first-name valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="text"
-                  placeholder="First Name"></span> </span>
+                  placeholder="First Name" id="Fnamecheck"></span> </span>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
           <img class="rectangle-4 rectangle-1" src="img/rectangle-6-2@2x.png" alt="Rectangle 4" />
           <div class="name valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="text"
-                  placeholder="Last Name"></span> </span>
+                  placeholder="Last Name" id="Lnamecheck"></span> </span>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
           <img class="rectangle" src="img/rectangle-6-2@2x.png" alt="Rectangle 6" />
           <div class="merchant-name valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="text"
-                  placeholder="Merchant Name"></span> </span>
+                  placeholder="Merchant Name" id="Merchant_check"></span> </span>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@
           <img class="rectangle" src="img/rectangle-6-2@2x.png" alt="Rectangle 6" />
           <div class="password valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="password"
-                  placeholder="Password"></span> </span>
+                  placeholder="Password" id="Password_check"></span> </span>
           </div>
         </div>
       </div>
@@ -73,20 +73,47 @@
           <img class="rectangle" src="img/rectangle-6-2@2x.png" alt="Rectangle 6" />
           <div class="confirm-password valign-text-middle poppins-normal-gunsmoke-18px">
             <span><span><input class="poppins-normal-gunsmoke-18px input-with-border" type="password"
-                  placeholder="Confirm Password"></span> </span>
+                  placeholder="Confirm Password" id="Password_confirm_check"></span> </span>
           </div>
         </div>
       </div>
-      <a href="login merchant.html">
-        <div class="overlap-group6">
+      
+        <div class="overlap-group6" onclick="auth()">
           <img class="rectangle-3 rectangle-1" src="img/rectangle-3-2@2x.png" alt="Rectangle 3" />
           <div class="create-account valign-text-middle inter-bold-gallery-21px">
             <span><span class="inter-bold-gallery-21px">Create Account</span> </span>
           </div>
         </div>
-      </a>
+      
     </div>
   </div>
+
+
+  <script>
+
+    function auth() {
+    var email_check = !!document.getElementById('Emailcheck').value;
+    var fname_check = !!document.getElementById('Fnamecheck').value;
+    var lname_check = !!document.getElementById('Lnamecheck').value;
+    var password_check = !!document.getElementById('Password_check').value;
+    var password_con_check = !!document.getElementById('Password_confirm_check').value;
+    var Merchant_check = !!document.getElementById('Merchant_check').value;
+
+    if (email_check && password_check && password_con_check && Merchant_check && fname_check && lname_check) {
+      // Perform your authentication logic
+      window.location.href = "login merchant.html";
+      alert("Create Account Success.");
+    } else {
+      alert("Please fill in all fields.");
+    }
+  }
+  
+  </script>
+
+
+
+
+  
 </body>
 
 </html>

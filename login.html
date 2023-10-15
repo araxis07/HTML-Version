@@ -107,13 +107,11 @@
       var email = document.getElementById('email').value;
       var password = document.getElementById('password').value;
 
-      if (email == "user123@gmail.com" && password == "123456") {
+      if (email == "user123@tni.ac.th" && password == "123456") {
         window.location.href = "menu-user.html";
         alert("Login successful as user");
-      } else if (email == "admin@gmail.com" && password == "admin") {
-        window.location.href = "merchantu95menu.html";
-        alert("Login successful as admin");
-      } else {
+      }
+      else {
         alert("Incorrect email or password");
       }
     }
