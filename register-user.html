@@ -82,15 +82,25 @@
       var password_con_check = !!document.getElementById('Password_Confirm_Check').value;
       var user_check = !!document.getElementById('Usercheck').value;
 
-      if (email_check && password_check && password_con_check && user_check) {
+      var password_syntax =  document.getElementById('PasswordCheck').value;
+      var password_con_syntax = document.getElementById('Password_Confirm_Check').value;
+
+      if (password_syntax !== password_con_syntax) {
+        // Perform your authentication logic
+        alert("Password not match Please try again.");
+        return;
+      }
+
+      else if (email_check && password_check && password_con_check && user_check) {
         // Perform your authentication logic
         window.location.href = "login.html";
         alert("Create Account Success.");
+
+
       } else {
         alert("Please fill in all fields.");
       }
-    }
-    
+      }
     </script>
 </body>
 
