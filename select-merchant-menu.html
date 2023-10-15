@@ -53,13 +53,13 @@
           </div>
         </div>
         <div class="price valign-text-middle">
-          <span><span>฿20</span> </span>
+          <span><div class="price_change">฿20</div></span>
         </div>
         <div class="view">
           <div class="overlap-group1">
             <a href="merchantu95menu.html">
-              <div class="confirm-save valign-text-middle inter-bold-white-17px">
-                <span><span class="inter-bold-white-17px">Confirm</span> </span>
+              <div class="confirm-save valign-text-middle inter-bold-white-17px" onclick="confirmChanges()">
+                <span><span class="inter-bold-white-17px">Confirm</span></span>
               </div>
             </a>
             <img class="vector" src="img/vector-1@2x.png" alt="Vector" />
@@ -89,6 +89,22 @@
   <script>
     /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
 
+      function confirmChanges() {
+      var buttonText = document.querySelector('.open');
+      var pricetext = document.querySelector('.price_change');
+
+      // Check if it's an open order
+      if (buttonText.innerText === 'Open Order') {
+        // Save the current text for an open order
+        var openOrderText = pricetext.innerText;
+        alert('Changes confirmed for open order: ' + openOrderText);
+      } else if (buttonText.innerText === 'Closed Order') {
+        // Save the current text for a closed order
+        var closedOrderText = pricetext.innerText;
+        alert('Changes confirmed for closed order: ' + closedOrderText);
+      }
+    }
+
 
 
     function toggleState(event) {
@@ -96,15 +112,21 @@
 
       var button = document.querySelector('.rectangle-30');
       var buttonText = document.querySelector('.open');
+      var pricetext = document.querySelector('.price_change');
+      const originalTextColor = pricetext.style.color;
 
       if (button.classList.contains('active')) {
         button.classList.remove('active');
         button.style.backgroundColor = '#FF0000';
         buttonText.innerText = 'Closed Order';
+        pricetext.innerText = 'Out of order'
+        pricetext.style.color = '#FF0000';
       } else {
         button.classList.add('active');
         button.style.backgroundColor = '#3fff69';
         buttonText.innerText = 'Open Order';
+        pricetext.innerText = '฿20'
+        pricetext.style.color = '';
       }
     }
 

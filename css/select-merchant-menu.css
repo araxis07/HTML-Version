@@ -17,6 +17,13 @@
   width: 428px;
 }
 
+.input-with-border {
+  border: 0px solid #000;
+  padding: 5px; /* ปรับขนาดขอบ */
+}
+
+
+
 .select-merchant-menu .x372156152_7932764861 {
   height: 273px;
   left: 0;
