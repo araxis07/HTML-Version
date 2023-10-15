@@ -50,16 +50,17 @@
         <div class="group-18 group">
           <div class="overlap-group">
             <div class="ellipse-3"></div>
-            <div class="text valign-text-middle inter-normal-black-20px">
+            <div class="text valign-text-middle inter-normal-black-20px" onclick="decreaseAmount()">
               <span><span class="inter-normal-black-20px">-</span> </span>
             </div>
           </div>
-          <div class="number valign-text-middle inter-normal-black-20px">
-            <span><span class="inter-normal-black-20px">2</span> </span>
+          <div class="number valign-text-middle inter-normal-black-20px" id="amount-display">
+            <span><span class="inter-normal-black-20px">1</span> </span>
           </div>
+  
           <div class="overlap-group">
             <div class="ellipse-3"></div>
-            <div class="text valign-text-middle inter-normal-black-20px">
+            <div class="text valign-text-middle inter-normal-black-20px" onclick="increaseAmount()">
               <span><span class="inter-normal-black-20px">+</span> </span>
             </div>
           </div>
@@ -75,9 +76,9 @@
                   <span><span class="inter-bold-white-17px">Confirm</span> </span>
                 </a>
               </div>
-              <div class="price valign-text-middle">
+              <div class="price valign-text-middle" id="price-display">
                 <a href="food-b-market.html">
-                  <span><span class="inter-bold-white-17px">฿40</span> </span>
+                  <span><span class="inter-bold-white-17px">฿20</span> </span>
                 </a>
               </div>
             </div>
@@ -87,25 +88,30 @@
     </form>
   </div>
   <script>
-    /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+    let amount = 1;  // Initialize amount
+    const pricePerUnit = 20;  // Price per unit
 
-    if (!HTMLFormElement.prototype.reportValidity) {
-      HTMLFormElement.prototype.reportValidity = function () {
-        if (this.checkValidity()) return true;
-        var btn = document.createElement("button");
-        this.appendChild(btn);
-        btn.click();
-        this.removeChild(btn);
-        return false;
-      };
+    // Function to increase the amount and update the display
+    function increaseAmount() {
+      if (amount < 10) {
+        amount++;
+        updateDisplay();
+      }
     }
 
-    function SubmitForm(form_name) {
-      var form = document.getElementsByName(form_name)[0];
-      if (form.reportValidity()) {
-        form.submit();
-        if (window.submitted) window.submitted();
+    // Function to decrease the amount and update the display
+    function decreaseAmount() {
+      if (amount > 1) {
+        amount--;
+        updateDisplay();
       }
+    }
+
+    // Function to update the amount and price display
+    function updateDisplay() {
+      document.getElementById('amount-display').innerText = amount;
+      const totalPrice = amount * pricePerUnit;
+      document.getElementById('price-display').innerText = `฿${totalPrice}`;
     }
   </script>
 </body>
